@@ -170,8 +170,14 @@ footer input[type="text"], footer input[type="Email"], footer textarea{
     .skill-container{
         flex-direction: column;
     }
-    .resume-container, footer, .about-items{
+    .resume-container, footer, .about-items, .banner, nav, nav > ul{
         flex-direction: column;
+    }
+    nav > ul{
+        gap: 20px;
+    }
+    .btn-primary{
+        margin: 10px;
     }
     footer, .about{
         padding: 20px;
@@ -181,6 +187,15 @@ footer input[type="text"], footer input[type="Email"], footer textarea{
     }
     footer input[type="text"], footer input[type="Email"], footer textarea{
         width: calc(100% - 40%);
+    }
+    .banner{
+        margin: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-pro-pic{
+        width: 100%;
     }
 
 }
